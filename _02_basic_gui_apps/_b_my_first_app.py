@@ -35,12 +35,12 @@ class FirstApp(tk.Tk):
         # TODO 6) Create a member variable for the image using the
         #  create_image function. You can use the image provided in this
         #  folder or another image from the internet
-        self.img = create_image("fossil.jpg", 200, 300)
+        self.img = create_image("fossil.jpg", 1050, 700)
         # TODO 7) Create another label and attach to it the image object
         #  from the previous step
         self.img_label = tk.Label(self, image=self.img)
         # TODO 8) Place the label somewhere on your app
-        self.img_label.place(relx=0.1, rely=0.2, relwidth=0.8, relheight=0.1)
+        self.img_label.place(relx=0.1, rely=0.2, relwidth=0.8, relheight=0.7)
 
 # TODO 9) Create an if __name__ == '__main__': block
 if __name__ == "__main__":
